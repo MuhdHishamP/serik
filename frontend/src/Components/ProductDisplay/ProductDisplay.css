@@ -6,6 +6,7 @@
 }
 
 .productdisplay_left {
+    margin-top: 1rem;
     display: flex;
     gap: 17px;
     flex: 1; /* Allow flexible width */

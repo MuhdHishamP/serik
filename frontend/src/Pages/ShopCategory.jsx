@@ -12,7 +12,7 @@ export const ShopCategory = (props) => {
   return (
     <div className='shop_category'>
       <img  className="shop_caterogy_banner" src={props.banner} alt='banner'/>
-     <div className="shopcategory_sortbanner">
+     {/* <div className="shopcategory_sortbanner">
      <div className="shopcategory_indexsort">
         <p>
           <span>Shwing 102</span> out of 36 products
@@ -21,7 +21,7 @@ export const ShopCategory = (props) => {
       <div className="shopcateogry_sort">
         Sort by <img src={dropdown_icon} alt='nothing' />
       </div>
-     </div>
+     </div> */}
 
   
       <div className="products">
