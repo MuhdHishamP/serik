@@ -1,0 +1,82 @@
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid blanchedalmond;
+}
+
+.firstcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 10px;
+   
+}
+.logo{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 10px;
+    text-decoration:solid;
+    align-items: center;
+}
+.logo p{
+    color: #383838;
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer_links{
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-between; */
+    list-style: none;
+    gap: 60px;
+    color: #252525;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.footer_links li{
+    cursor: pointer;
+
+}
+
+.contactinfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactinfo span{
+    text-decoration: underline;
+}
+
+.footer-line {
+    width: 100%; /* Full viewport width */
+    height: 1px; /* Line thickness */
+    background-color: #100f0f; /* Line color */
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+.social_icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+    gap: 20px;
+ 
+}
+
+.secondcontainer{
+    font-size: 14px;
+    font-style: italic;
+}

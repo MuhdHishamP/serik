@@ -1,0 +1,57 @@
+
+.shop{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.container{
+    width: 100%;
+    height: 25rem;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.493);
+    border: solid 1px rgb(141, 143, 142);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.welcometext{
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 3rem;
+  margin-top:8rem;
+}
+.container span{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+.shopTitle {
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: bold;
+    
+    
+  }
+.products {
+    width: auto;
+    height: auto;
+    place-items: center;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+    box-sizing: border-box;
+ 
+  }
+  
+ 
